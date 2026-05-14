@@ -1,6 +1,8 @@
 # chest_xray_xai_pipeline
 Training, evaluation and explicability pipeline with Grad-CAM for CNN models that classify radiological images, with a focus on the clinical validation of the models' activations.
 
+All notebooks are compatible with both CPU and GPU. GPU is strongly recommended for training (notebooks were developed on NVIDIA T4 and L4 via Google Colab). CPU execution is supported but training times will be significantly longer.
+
 # General pre requisites
 --Complete config.py: add the path where the project will generate
 

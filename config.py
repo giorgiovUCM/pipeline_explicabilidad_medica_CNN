@@ -13,4 +13,4 @@ MODELS_DIR     = f'{PROJECT_DIR}/models'                           # saved model
 MAPS_ZIP      = f'{PROJECT_DIR}/grad_cam_maps.zip'               # Grad-CAM maps
 MAPS_DIR       = f'{PROJECT_DIR}/grad_cam_maps'               # Grad-CAM maps (uncompressed)
 
-TAGS = ['aneurysm', 'cardiomegaly']
+LABELS = ['aneurysm', 'cardiomegaly']

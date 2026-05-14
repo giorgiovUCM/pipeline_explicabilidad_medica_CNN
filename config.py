@@ -14,3 +14,10 @@ MAPS_ZIP      = f'{PROJECT_DIR}/grad_cam_maps.zip'               # Grad-CAM maps
 MAPS_DIR       = f'{PROJECT_DIR}/grad_cam_maps'               # Grad-CAM maps (uncompressed)
 
 LABELS = ['aneurysm', 'cardiomegaly']
+MODELS = ['AN_256', 'DN_256', 'AN_1024', 'DN_1024']
+CONFIGS = configs = [
+    {'name': 'AN_256',  'arq': 'alexnet',  'res': 256,  'metadata': f'{DATASET_DIR}/metadata_256.csv',  'images': f'{DATASET_DIR}/images_256',  'batch': 16},
+    {'name': 'DN_256',  'arq': 'densenet', 'res': 256,  'metadata': f'{DATASET_DIR}/metadata_256.csv',  'images': f'{DATASET_DIR}/images_256',  'batch': 16},
+    {'name': 'AN_1024', 'arq': 'alexnet',  'res': 1024, 'metadata': f'{DATASET_DIR}/metadata_1024.csv', 'images': f'{DATASET_DIR}/images_1024', 'batch': 4},
+    {'name': 'DN_1024', 'arq': 'densenet', 'res': 1024, 'metadata': f'{DATASET_DIR}/metadata_1024.csv', 'images': f'{DATASET_DIR}/images_1024', 'batch': 4},
+]

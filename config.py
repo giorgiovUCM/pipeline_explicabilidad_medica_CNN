@@ -8,3 +8,5 @@ DATASET_DIR   = f'{PROJECT_PATH}/filtered_dataset'    # (filtered images + CSVs)
 KAGGLE_DIR      = f'{PROJECT_PATH}/dataset'           # temporal download of the original dataset to then be filtered and moved to DATASET_DIR in 01_dataset_import.ipynb
 MODELS_DIR    = f'{PROJECT_PATH}/models'              # saved models
 MAPS_DIR      = f'{PROJECT_PATH}/maps'                # Grad-CAM maps
+
+TAGS = ['aneurysm', 'cardiomegaly']

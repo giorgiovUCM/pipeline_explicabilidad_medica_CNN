@@ -1,6 +1,8 @@
-# config.py
+"""
 # Set PROJECT_PATH to your local project directory before running any notebook.
-# Example (local): PROJECT_PATH = '/home/user/pipeline_explicabilidad_medica_CNN'
+# Example (local): PROJECT_DIR = '/home/user/chest_xray_xai_pipeline'
+"""
+
 
 PROJECT_DIR = ''
 

@@ -3,6 +3,8 @@ Training, evaluation and explicability pipeline with Grad-CAM for CNN models tha
 
 All notebooks are compatible with both CPU and GPU. GPU is strongly recommended for training (notebooks were developed on NVIDIA T4 and L4 via Google Colab). CPU execution is supported but training times will be significantly longer.
 
+The main branch represents the last iteration of the pipeline and each branch "iteration_n" represents the iterations done to it.
+
 # General pre requisites
 --Complete config.py: add the path where the project will generate
 
